@@ -1,18 +1,19 @@
 {
-  "name": "prettier-precommit",
-  "description": "A NodeJS pre-commit hook that formats staged files using Prettier",
+  "name": "prettier-staged",
+  "description": "A cross-platform NodeJS script that formats staged files using Prettier",
   "version": "0.0.1",
   "keywords": [
     "prettier",
     "pre-commit",
-    "husky"
+    "staged",
+    "husky",
+    "cross-platform"
   ],
   "license": "MIT",
   "scripts": {
-    "prepare": "tsc"
+    "prepare": "tsc && chmod +x index.js"
   },
-  "main": "pre-commit.js",
-  "bin": "pre-commit.js",
+  "bin": "index.js",
   "dependencies": {
     "colors": "latest",
     "nodegit": "latest",
