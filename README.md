@@ -30,12 +30,12 @@ npx prettier-staged
 
 ### Git Hook
 
-Install to your git hooks:
+Install to your git hooks, using one of these methods:
 
 - use [husky](https://www.npmjs.com/package/husky) (see the
   [example husky config](#example-huskyrc))
-- symlink `node_modules/prettier-staged/index.js` to `.git/hooks/pre-commit`
-- add `npx prettier-staged` to your existing `.git/hooks/pre-commit`
+- OR, symlink `node_modules/prettier-staged/index.js` to `.git/hooks/pre-commit`
+- OR, add `npx prettier-staged` to your existing `.git/hooks/pre-commit`
 
 ### Example `.huskyrc`
 
