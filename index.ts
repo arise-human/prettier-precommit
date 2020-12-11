@@ -1,4 +1,4 @@
-#!node
+#!/usr/bin/env node
 import {
   exists as existsCb,
   readFile as readFileCb,

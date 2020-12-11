@@ -14,12 +14,18 @@ with Node installed.
 This tool respects any configuration that would normally be recognized by
 Prettier, such as `.prettierrc` or the `prettier` config in `package.json`.
 
+## Installation
+
+```
+npm i -D prettier-staged
+```
+
 ## Usage
 
 ### CLI
 
 ```
-$ npx prettier-staged
+npx prettier-staged
 ```
 
 ### Git Hook
